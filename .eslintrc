@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "env": { "node": true, "es6": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": { "react/prop-types": 0 },
+  "overrides": [
+    {
+      "files": ["src/*"],
+      "env": { "browser": true, "node": false }
+    },
+    {
+      "files": ["src/index.js"],
+      "env": { "node": true }
+    }
+  ]
+}
