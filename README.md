@@ -9,6 +9,7 @@
 - Environment configurations
 - ESLint
 - Prettier
+- CSS Modules with SASS
 
 ## Installation
 
